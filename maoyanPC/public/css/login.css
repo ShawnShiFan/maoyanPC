@@ -1,0 +1,388 @@
+body,
+html {
+    background: #FFF;
+}
+
+body {
+    font: 400 14px/1.5 'Hiragino Sans GB', 'WenQuanYi Micro Hei', tahoma, sans-serif;
+    color: #666;
+
+}
+
+blockquote,
+body,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.header {
+    position: relative;
+    width: 980px;
+    height: auto;
+    margin: 40px auto 30px;
+}
+
+.cf {
+    zoom: 1;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+.cf:after {
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.cf:after,
+.theme--maoyan_pianfang footer:before,
+q:after,
+q:before {
+    content: '';
+}
+
+.theme--maoyan .header .site-logo {
+    width: 230px;
+    height: 45px;
+    background-position: -394px -677px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+    background-size: initial;
+}
+
+.header .site-logo {
+    margin: 0;
+    width: 82px;
+    height: 54px;
+    background-position: -188px -808px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+    background-size: initial;
+    float: left;
+    display: block;
+    display: inline;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.theme--maoyan .link,
+.theme--maoyan a {
+    color: #ec454a;
+}
+.pg-unitive-login .promotion-banner {
+    float: left;
+    height: 370px;
+    margin: 0 115px 0 0;
+    width: 480px;
+}
+a {
+    color: #2bb8aa;
+    text-decoration: none;
+}
+.cf:after {
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.cf:after, .theme--maoyan_pianfang footer:before, q:after, q:before {
+    content: '';
+}
+.pg-unitive-login .site-body {
+    margin: 0 auto 70px;
+    width: 980px;
+}
+.promotion-banner{
+    font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+    color: #666;
+    background-color: #fff;
+}
+fieldset, img {
+    border: 0;
+}
+.promotion-banner img{
+    width: 480px;
+    height: 370px;
+}
+.pg-unitive-login .login-section {
+    float: left;
+    padding-top: 0;
+}
+.login-section {
+    margin: 0 auto;
+    width: 270px;
+    background: #FFF;
+}
+.login-section .form--stack {
+    width: 270px;
+}
+.pg-unitive-login .login-section {
+    float: left;
+    padding-top: 0;
+}
+.login-section {
+    margin: 0 auto;
+    width: 270px;
+    background: #FFF;
+}
+.form--stack {
+    width: 260px;
+}
+.form {
+    margin: 0 0 10px;
+    position: relative;
+}
+.login-section .validate-info {
+    min-height: 18px;
+    margin-top: 0;
+}
+.form--stack .validate-info {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f5d8a7;
+    border-radius: 2px;
+    background: #fff6db;
+    font-size: 12px;
+}
+.login-section .login-type {
+    font-weight: 400;
+    color: #666;
+}
+.login-section .login-type a {
+    position: relative;
+    float: right;
+    padding-right: 16px;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+.login-section .form-field--icon {
+    position: relative;
+}
+.login-section .form-field {
+    padding-left: 0;
+    padding-bottom: 8px;
+}
+.form--stack .form-field {
+    padding-left: 0;
+}
+.form-field--icon {
+    position: relative;
+}
+.form-field {
+    position: relative;
+    padding: 8px 0 8px 110px;
+    zoom: 1;
+}
+.login-section .form-field--icon .icon-user {
+    width: 18px;
+    height: 18px;
+    background-position: -1250px -617px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+}
+
+.login-section .icon {
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    left: 9px;
+    line-height: 18px;
+    vertical-align: text-top;
+}
+.login-section .form-field--icon .f-text {
+    width: 230px;
+    padding-left: 33px;
+}
+
+.form-field--icon .f-text {
+    padding-left: 33px;
+    width: 220px;
+}
+.form-field .f-text {
+    width: 248px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+    vertical-align: top;
+}
+.f-input, .f-text {
+    border-color: #2bb8aa;
+}
+.f-input, .f-text, .f-textarea {
+    padding: 3px 4px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+}
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.login-section .form-field--icon {
+    position: relative;
+}
+.login-section .form-field {
+    padding-left: 0;
+    padding-bottom: 8px;
+}
+.login-section .form-field--icon .icon-password {
+    width: 18px;
+    height: 18px;
+    background-position: -1250px -527px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+}
+.theme--maoyan .login-section .login-type i {
+    width: 10px;
+    height: 13px;
+    background-position: -1268px -509px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+}
+.login-section .login-type i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -7px;
+    background-position: -877px -677px;
+}
+.login-section .form-field--icon .f-text {
+    width: 230px;
+    padding-left: 33px;
+}
+.form-field--icon .f-text {
+    padding-left: 33px;
+    width: 220px;
+}
+.form-field .f-text {
+    width: 248px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+    vertical-align: top;
+}
+input[type=password] {
+    font-family: arial,sans-serif;
+}
+.login-section .form-field--auto-login {
+    padding-top: 0;
+    font-size: 12px;
+}
+.login-section .form-field--auto-login .forget-password {
+    float: right;
+}
+.form-field .forget-password {
+    float: right;
+}
+.theme--maoyan .link, .theme--maoyan a {
+    color: #ec454a;
+}
+a {
+    color: #2bb8aa;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login-section .form-field {
+    padding-left: 0;
+    padding-bottom: 8px;
+}
+.login-section .form--stack .btn, .login-section .form--stack .btn-hot {
+    width: 100%;
+}
+.theme--maoyan .btn {
+    border: #e02025;
+    color: #FFF;
+    background: #ec454a;
+    background: linear-gradient(to bottom,#ec454a 0,#e02025 100%);
+}
+.btn, .btn-hot, .btn-normal {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 20px 6px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    border-radius: 2px;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.login-section .signup-guide {
+    color: #666;
+}
+.footer {
+    margin: 0 auto 30px;
+    clear: both;
+    width: 980px;
+    font-size: 12px;
+    color: #999;
+}
+.theme--maoyan .footer .copyright {
+    text-align: center;
+    color: #ccc;
+}
+.footer .copyright {
+    text-align: left;
+    clear: both;
+    font-size: 12px;
+    font-family: initial;
+}
+.theme--maoyan .footer .copyright {
+    text-align: center;
+    color: #ccc;
+}

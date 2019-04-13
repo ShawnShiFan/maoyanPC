@@ -1,0 +1,111 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+.header .header-inner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+.header .logo {
+    float: left;
+    width: 133px;
+    height: 80px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAAoCAYAAADQWDkMAAAABmJLR…mAM7EgqAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=) 0 no-repeat;
+    background-size: contain;
+}
+.city-container {
+    position: relative;
+    float: left;
+    margin: 0 8px;
+    height: 100%;
+}
+.city-container .city-selected {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-width: 0 1px;
+    z-index: 101;
+}
+.city-container .city-name {
+    display: inline-block;
+    margin-top: 32px;
+    color: #333;
+}
+.header .nav {
+    display: inline-block;
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+}
+.header form, .header h3, .header input, .header li, .header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+}
+.header .nav .navbar li {
+    float: left;
+}
+.header .nav .navbar li a {
+    text-align: center;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+    font-size: 18px;
+    color: #333;
+}
+.header .nav .navbar li a.active {
+    color: #fff;
+    background-color: #ef4238;
+}
+.header .nav .navbar li a:hover {
+    color: #ef4238;
+}
+.header .user-info {
+    float: right;
+    position: relative;
+    z-index: 9999;
+    height: 100%;
+}
+.header .user-info .user-avatar {
+    display: block;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 10px;
+    width: 56px;
+    height: 100%;
+}
+.header .user-info .user-avatar img {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header .user-info .user-avatar .caret {
+    position: absolute;
+    top: 39px;
+    right: 10px;
+}
+.header .user-info .user-avatar:hover:after {
+    content: " ";
+    position: absolute;
+    height: 10px;
+    bottom: -1px;
+    left: 1px;
+    right: 1px;
+    background-color: #fff;
+}
+.header .user-info .user-menu li {
+    margin-bottom: 6px;
+}
+.header .user-info .user-avatar:hover {
+    border-color: #d8d8d8;
+}

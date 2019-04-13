@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="//s0.meituan.net/bs/?f=myfe/mywww:/common.ef9ce11a.css">
+    <link rel="stylesheet" href="//s0.meituan.net/bs/?f=myfe/mywww:/movie-detail.40d4116c.css">
+    <div class="header-placeholder"></div>
+    <div class="banner">
+        <div class="wrapper clearfix">
+            <div class="celeInfo-left">
+                <div class="avatar-shadow" id="avatar-shadow">
+                </div>
+            </div>
+            <div class="celeInfo-right clearfix">
+                <div class="movie-brief-container">
+                    <h3 class="name" id="filmName"></h3>
+                    <div class="ename ellipsis" id="filmEname"></div>
+                    <ul>
+                        <li class="ellipsis" id="type"></li>
+                        <li class="ellipsis" id="area">
+                        </li>
+                        <li class="ellipsis" id="upDate"></li>
+                    </ul>
+                </div>
+                <div class="action-buyBtn">
+                    <div class="action clearfix" data-val="{movieid:341139}">
+                        <a class="wish " data-wish="false" data-score="" data-bid="b_gbxqtw6x">
+                            <div>
+                                <i class="icon wish-icon"></i>
+                                <span class="wish-msg" data-act="wish-click">想看</span>
+                            </div>
+                        </a>
+                        <a class="score-btn " data-bid="b_rxxpcgwd">
+                            <div>
+                                <i class="icon score-btn-icon"></i>
+                                <span class="score-btn-msg" data-act="comment-open-click">
+                                    评分
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="btn buy" href="" target="_blank">特惠购票</a>
+                </div>
+
+                <div class="movie-stats-container">
+
+                    <div class="movie-index">
+                        <p class="movie-index-title">用户评分</p>
+                        <div class="movie-index-content score normal-score">
+                            <span class="index-left info-num ">
+                                <span class="stonefont" id="score"></span>
+                            </span>
+                            <div class="index-right">
+                                <div class="star-wrapper">
+                                    <div class="star-on" style="width:88%;"></div>
+                                </div>
+                                <span class="score-num"><span class="stonefont"></span></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="movie-index">
+                        <p class="movie-index-title">累计票房</p>
+                        <div class="movie-index-content box">
+                            <span class="stonefont" id="count"></span><span class="unit">亿</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="app">
+        <div class="main-content-container clearfix">
+            <div class="main-content">
+                <div class="tab-container">
+                    <div class="tab-title-container clearfix">
+                        <div class="tab-title active" data-act="tab-desc-click">介绍</div>
+                        <div class="tab-title " data-act="tab-celebrity-click">演职人员</div>
+                        <div class="tab-title tab-disabled" data-act="tab-award-click">奖项</div>
+                        <div class="tab-title " data-act="tab-img-click">图集</div>
+                    </div>
+                    <div class="tab-content-container">
+                        <div class="tab-desc tab-content active" data-val="{tabtype:'desc'}">
+
+                            <div class="module">
+                                <div class="mod-title">
+                                    <h3>剧情简介</h3>
+                                </div>
+                                <div class="mod-content">
+                                    <span class="dra" id="intro"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="module">
+                                <div class="mod-title">
+                                    <h3>演职人员</h3>
+                                    <a class="more" href="#celebrity" data-act="all-actor-click">全部</a>
+                                </div>
+                                <div class="mod-content">
+                                    <div class="celebrity-container clearfix">
+
+                                        <div class="celebrity-group">
+                                            <div class="celebrity-type">
+                                                导演
+                                            </div>
+                                            <ul class="celebrity-list clearfix" id="directors">
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="celebrity-group">
+                                            <div class="celebrity-type">
+                                                演员
+                                            </div>
+                                            <ul class="celebrity-list clearfix" id="actors">
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="module">
+                                <div class="mod-title">
+                                    <h3>图集</h3>
+                                    <a class="more" href="#img" data-act="all-photo-click">全部</a>
+                                </div>
+                                <div class="mod-content">
+                                    <div class="album clearfix" data-act="movie-img-click" id="images">
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="module">
+                                <div class="mod-title">
+                                    <h3>热门短评</h3>
+                                </div>
+                                <div class="mod-content">
+                                    <div class="comment-list-container" data-hot="10">
+                                        <ul id="comments">
+
+                                        </ul>
+
+                                    </div>
+                                    <a class="comment-entry" href="javascript:;" id="writeComment">写短评</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="related">
+            </div>
+        </div>
+
+    </div>
+    <div style="position:fixed;width:400px;height:300px;z-index:999;top:0;bottom:0;    background: rgba(0,0,0,.5);display:none;
+    margin: auto;
+    left: 0;
+    right: 0;text-align:center;line-height:300px;padding:20px" id="comment-box">
+    <input type="text" style="width:80%;height:150px" id="comment-input">
+    
+    <a href="javascript:;"  id="close">关闭</a>
+    <a href="javascript:;" id="submit">提交</a>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/detail.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body class="pg-unitive-login theme--maoyan">
+
+    <!-- 头部 -->
+    <header class="header cf">
+        <a class="site-logo" href="/">猫眼电影</a>
+    </header>
+
+    <div class="site-body-wrapper">
+        <div class="site-body cf">
+            <!-- 左边图片 -->
+            <div class="promotion-banner">
+                <img src="//s0.meituan.net/bs/file/?f=fe-sso-fs:build/page/static/banner/maoyan.png" width="480" height="370"
+                    alt="猫眼电影">
+            </div>
+
+            <!-- 右边登陆框 -->
+            <div class="login-section" data-params="{&quot;service&quot;:&quot;www&quot;,&quot;isDialog&quot;:false }">
+                <form id="J-normal-form" method="POST" action="javascript:;" class="form form--stack">
+                    <div class="validate-info" style="visibility:hidden"></div>
+                    <span class="login-type" data-mtevent="login.mobile.switch">
+                        <a id="J-mobile-link">
+                            手机动态码登录
+                            <i></i>
+                        </a>
+                        账号登录
+                    </span>
+
+                    <!-- 用户账号 -->
+                    <div class="form-field form-field--icon">
+                        <i class="icon icon-user"></i>
+                        <input type="text" id="login-phone" class="f-text" name="email" placeholder="手机号" value="">
+                    </div>
+                    <div id="prompt" style="display:none;color:red">手机号不存在！</div>
+                    <!-- 密码 -->
+                    <div class="form-field form-field--icon">
+                        <i class="icon icon-password"></i>
+                        <input type="password" id="login-pwd" class="f-text" name="password" placeholder="密码">
+                    </div>
+
+                    <!-- 忘记密码 -->
+                    <div class="form-field form-field--auto-login cf">
+                        <a tabindex="-1" class="forget-password">忘记密码？</a>
+                    </div>
+                    <div id="prompt2" style="display:none;color:red">账号或密码不正确！</div>
+                    <!-- 登录 -->
+                    <div class="form-field form-field--ops">
+                        <input data-mtevent="login.normal.submit" type="submit" class="btn" name="commit" value="登录" id="login-btn">
+                    </div>
+                    <!-- 注册 -->
+                    <p class="signup-guide">还没有账号？<a href="/register.html">免费注册</a></p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>
+                ©<span>2019</span>
+                <a href="#">美团网团购</a>
+                meituan.com
+                <a href="#">京ICP证070791号</a>
+                京公网安备11010502025545号
+            </p>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/login.js" type="module"></script>
+</body>
+
+</html>
