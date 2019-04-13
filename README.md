@@ -1,4 +1,4 @@
-# maoyanPC
+# 猫眼网站PC端仿写
 技术栈：
 ---
 jQuery + express
